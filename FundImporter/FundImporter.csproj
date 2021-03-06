@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.30" />
+    <PackageReference Include="MathNet.Numerics" Version="4.15.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data.Contract\Data.Contract.csproj" />
+    <ProjectReference Include="..\Data.Writer\Data.Writer.csproj" />
+    <ProjectReference Include="..\BusinessLayer.Query\BusinessLayer.Query.csproj" />
+    <ProjectReference Include="..\Data.Reader\Data.Reader.csproj" />
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Client.Tushare\Client.Tushare.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Bls\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,146 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundApi", "Fund\FundApi.csproj", "{21ECF18E-B68E-4486-89CD-63327CB94FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundImporter", "FundImporter\FundImporter.csproj", "{2502ACF9-712E-49E3-BFB4-563B48149C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Fund", "Domain.Fund\Domain.Fund.csproj", "{CF6DB37B-5B84-4888-9098-AADA09D1867B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.SharedKernel", "Domain.SharedKernel\Domain.SharedKernel.csproj", "{905F76BC-1F00-4934-AB81-2909D947A1B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{966DDD75-F264-454B-BC2C-84661B57DFC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Contract", "Data.Contract\Data.Contract.csproj", "{F9618749-89A0-4030-B9EF-48C8E937D30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Writer", "Data.Writer\Data.Writer.csproj", "{92941E7F-03D4-4F48-B54E-60BD6288ED18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer.Query", "BusinessLayer.Query\BusinessLayer.Query.csproj", "{5DAAB543-E9B0-445E-A408-D60C04BCA83D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Reader", "Data.Reader\Data.Reader.csproj", "{C7773D00-1FD7-48C5-B390-8475EE9353C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F96113B1-9617-49CE-99E3-C1F1B0712D62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{53DB4D88-E320-49EC-9252-80C2DE4BF3F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{01DF9B5E-118D-447C-A52E-7F9D719BDDA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Executable", "Executable", "{F7D35033-6E72-45FF-8E49-E4ADC797490E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{49294E9B-6102-4AA4-894F-A03915F7DAEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Tushare", "Client.Tushare\Client.Tushare.csproj", "{1BC0D6B1-DBE0-4B97-83F9-8C98420F9F63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{9AB3FD22-9662-4775-9662-66D0A4584600}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Morningstar", "Morningstar", "{C14F27C6-3D69-4F99-B5C3-D84BCB4F2531}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20210220", "20210220", "{A6DE60C6-2080-4448-BEB0-5206F2AD9AE7}"
+	ProjectSection(SolutionItems) = preProject
+		基金龙虎榜_晨星网1.html = 基金龙虎榜_晨星网1.html
+		基金龙虎榜_晨星网2.html = 基金龙虎榜_晨星网2.html
+		基金龙虎榜_晨星网3.html = 基金龙虎榜_晨星网3.html
+		基金龙虎榜_晨星网4.html = 基金龙虎榜_晨星网4.html
+		基金龙虎榜_晨星网5.html = 基金龙虎榜_晨星网5.html
+		基金龙虎榜_晨星网6.html = 基金龙虎榜_晨星网6.html
+		基金龙虎榜_晨星网7.html = 基金龙虎榜_晨星网7.html
+		基金龙虎榜_晨星网8.html = 基金龙虎榜_晨星网8.html
+		基金龙虎榜_晨星网9.html = 基金龙虎榜_晨星网9.html
+		基金龙虎榜_晨星网10.html = 基金龙虎榜_晨星网10.html
+		基金龙虎榜_晨星网11.html = 基金龙虎榜_晨星网11.html
+		基金龙虎榜_晨星网12.html = 基金龙虎榜_晨星网12.html
+		基金龙虎榜_晨星网13.html = 基金龙虎榜_晨星网13.html
+		基金龙虎榜_晨星网14.html = 基金龙虎榜_晨星网14.html
+		基金龙虎榜_晨星网15.html = 基金龙虎榜_晨星网15.html
+		基金龙虎榜_晨星网16.html = 基金龙虎榜_晨星网16.html
+		基金龙虎榜_晨星网17.html = 基金龙虎榜_晨星网17.html
+		基金龙虎榜_晨星网18.html = 基金龙虎榜_晨星网18.html
+		基金龙虎榜_晨星网19.html = 基金龙虎榜_晨星网19.html
+		基金龙虎榜_晨星网20.html = 基金龙虎榜_晨星网20.html
+		基金龙虎榜_晨星网21.html = 基金龙虎榜_晨星网21.html
+		基金龙虎榜_晨星网22.html = 基金龙虎榜_晨星网22.html
+		基金龙虎榜_晨星网23.html = 基金龙虎榜_晨星网23.html
+		基金龙虎榜_晨星网24.html = 基金龙虎榜_晨星网24.html
+		基金龙虎榜_晨星网25.html = 基金龙虎榜_晨星网25.html
+		基金龙虎榜_晨星网26.html = 基金龙虎榜_晨星网26.html
+		基金龙虎榜_晨星网27.html = 基金龙虎榜_晨星网27.html
+		基金龙虎榜_晨星网28.html = 基金龙虎榜_晨星网28.html
+		基金龙虎榜_晨星网29.html = 基金龙虎榜_晨星网29.html
+		基金龙虎榜_晨星网30.html = 基金龙虎榜_晨星网30.html
+		基金龙虎榜_晨星网31.html = 基金龙虎榜_晨星网31.html
+		基金龙虎榜_晨星网32.html = 基金龙虎榜_晨星网32.html
+		基金龙虎榜_晨星网33.html = 基金龙虎榜_晨星网33.html
+		基金龙虎榜_晨星网34.html = 基金龙虎榜_晨星网34.html
+		基金龙虎榜_晨星网35.html = 基金龙虎榜_晨星网35.html
+		基金龙虎榜_晨星网36.html = 基金龙虎榜_晨星网36.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21ECF18E-B68E-4486-89CD-63327CB94FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21ECF18E-B68E-4486-89CD-63327CB94FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21ECF18E-B68E-4486-89CD-63327CB94FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21ECF18E-B68E-4486-89CD-63327CB94FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2502ACF9-712E-49E3-BFB4-563B48149C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2502ACF9-712E-49E3-BFB4-563B48149C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2502ACF9-712E-49E3-BFB4-563B48149C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2502ACF9-712E-49E3-BFB4-563B48149C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6DB37B-5B84-4888-9098-AADA09D1867B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6DB37B-5B84-4888-9098-AADA09D1867B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6DB37B-5B84-4888-9098-AADA09D1867B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6DB37B-5B84-4888-9098-AADA09D1867B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905F76BC-1F00-4934-AB81-2909D947A1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905F76BC-1F00-4934-AB81-2909D947A1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905F76BC-1F00-4934-AB81-2909D947A1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905F76BC-1F00-4934-AB81-2909D947A1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966DDD75-F264-454B-BC2C-84661B57DFC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966DDD75-F264-454B-BC2C-84661B57DFC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966DDD75-F264-454B-BC2C-84661B57DFC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966DDD75-F264-454B-BC2C-84661B57DFC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9618749-89A0-4030-B9EF-48C8E937D30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9618749-89A0-4030-B9EF-48C8E937D30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9618749-89A0-4030-B9EF-48C8E937D30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9618749-89A0-4030-B9EF-48C8E937D30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92941E7F-03D4-4F48-B54E-60BD6288ED18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92941E7F-03D4-4F48-B54E-60BD6288ED18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92941E7F-03D4-4F48-B54E-60BD6288ED18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92941E7F-03D4-4F48-B54E-60BD6288ED18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAAB543-E9B0-445E-A408-D60C04BCA83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAAB543-E9B0-445E-A408-D60C04BCA83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAAB543-E9B0-445E-A408-D60C04BCA83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAAB543-E9B0-445E-A408-D60C04BCA83D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7773D00-1FD7-48C5-B390-8475EE9353C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7773D00-1FD7-48C5-B390-8475EE9353C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7773D00-1FD7-48C5-B390-8475EE9353C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7773D00-1FD7-48C5-B390-8475EE9353C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC0D6B1-DBE0-4B97-83F9-8C98420F9F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC0D6B1-DBE0-4B97-83F9-8C98420F9F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC0D6B1-DBE0-4B97-83F9-8C98420F9F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC0D6B1-DBE0-4B97-83F9-8C98420F9F63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52EE3F5C-9A49-45E3-9B8F-32DA3DF7DA90}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9618749-89A0-4030-B9EF-48C8E937D30B} = {F96113B1-9617-49CE-99E3-C1F1B0712D62}
+		{C7773D00-1FD7-48C5-B390-8475EE9353C8} = {F96113B1-9617-49CE-99E3-C1F1B0712D62}
+		{92941E7F-03D4-4F48-B54E-60BD6288ED18} = {F96113B1-9617-49CE-99E3-C1F1B0712D62}
+		{5DAAB543-E9B0-445E-A408-D60C04BCA83D} = {53DB4D88-E320-49EC-9252-80C2DE4BF3F3}
+		{CF6DB37B-5B84-4888-9098-AADA09D1867B} = {01DF9B5E-118D-447C-A52E-7F9D719BDDA7}
+		{905F76BC-1F00-4934-AB81-2909D947A1B7} = {01DF9B5E-118D-447C-A52E-7F9D719BDDA7}
+		{21ECF18E-B68E-4486-89CD-63327CB94FAE} = {F7D35033-6E72-45FF-8E49-E4ADC797490E}
+		{2502ACF9-712E-49E3-BFB4-563B48149C42} = {F7D35033-6E72-45FF-8E49-E4ADC797490E}
+		{1BC0D6B1-DBE0-4B97-83F9-8C98420F9F63} = {49294E9B-6102-4AA4-894F-A03915F7DAEA}
+		{C14F27C6-3D69-4F99-B5C3-D84BCB4F2531} = {9AB3FD22-9662-4775-9662-66D0A4584600}
+		{A6DE60C6-2080-4448-BEB0-5206F2AD9AE7} = {C14F27C6-3D69-4F99-B5C3-D84BCB4F2531}
+	EndGlobalSection
+EndGlobal
